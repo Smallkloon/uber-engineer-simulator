@@ -344,6 +344,21 @@
 		opacity: 0;
 		transition: opacity 2s ease;
 	}
+
+	#kofi-link {
+		position: fixed;
+		bottom: 1rem;
+		left: 1rem;
+		z-index: 99999;
+		font-family: "Times New Roman", serif;
+		font-size: 0.85rem;
+		color: #222;
+		text-decoration: underline;
+	}
+
+	#kofi-link:hover {
+		color: #000;
+	}
 </style>
 </head>
 <body>
@@ -527,6 +542,7 @@
 </div>
 </div>
 </div>
+<a id="kofi-link" href="https://ko-fi.com/small_____" target="_blank" rel="noopener">&#9749; enjoying this game? please consider buying me a coffee!</a>
 <div id="save-toast">saving...</div>
 <div id="cinematic-blocker"><div id="credits-scroll"></div></div>
 <div id="credits-thanks"><span>thank you for playing</span></div>
@@ -1350,6 +1366,7 @@
 		"Even our KPI dashboards have a KPI dashboard.",
 		"Prompt injection attack detected. Initiating lethal countermeasures.",
 		"Prompt Loading... ████████████████████████ 99%",
+		"We can say we met all of the quarterly OKRs so long as we retroactively change the OKRs to match what we actually achieved last quarter.",	
 	];
 	var TERM_MAX_LINES = 20;
 
